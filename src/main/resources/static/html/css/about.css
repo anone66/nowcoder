@@ -1,0 +1,822 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.menu1 {
+    background: url("../image/bg7/bg7.jpg") no-repeat fixed center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+
+.banner-text {
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+}
+
+.banner-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tt {
+    line-height: 900%;
+    position: absolute;
+    font-family: 新宋体;
+    font-size: 14px;
+    background-color: transparent;
+    margin-left: 37.5%;
+}
+
+.tt_ {
+    position: absolute;
+    line-height: 280%;
+    font-family: 新宋体;
+    font-size: 38px;
+    width: 50%;
+    background-color: transparent;
+    margin-left: 37%;
+}
+
+.banner-top {
+    padding-left: 41%;
+    margin-left: 6%;
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    width: 47%;
+    height: 100%;
+    font-size: 16px;
+    border-bottom: #B1B5D7 solid 1px;
+}
+
+.banner-top a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 800%;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner-top1 a:hover {
+    width: 100%;
+    height: 100%;
+    border-bottom: #ffffff 2px solid;
+    text-decoration: none;
+}
+
+.banner-top2 a:hover {
+    width: 100%;
+    height: 99%;
+    border-bottom: #ffffff 2px solid;
+    text-decoration: none;
+}
+
+.banner-top3 a:hover {
+    width: 100%;
+    height: 99%;
+    border-bottom: #ffffff 2px solid;
+    text-decoration: none;
+}
+
+.banner-top4 a:hover {
+    width: 100%;
+    height: 99%;
+    border-bottom: #ffffff 2px solid;
+    text-decoration: none;
+}
+
+.banner-top5 a:hover {
+    width: 100%;
+    height: 99%;
+    border-bottom: #ffffff 2px solid;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 17.6%;
+    z-index: 100;
+    opacity: 1;
+    background: transparent;
+}
+
+.banner-top1 {
+    float: left;
+    height: 99%;
+    margin-left: 38.5%;
+    width: 7%;
+    border-bottom: #ffffff 2px solid;
+    display: flex;
+    position: absolute;
+}
+
+.banner-top2 {
+    float: left;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    position: absolute;
+    margin-left: 9.2%;
+}
+
+.banner-top3 {
+    float: left;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    position: absolute;
+    margin-left: 19.5%;
+}
+
+.banner-top4 {
+    float: left;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    position: absolute;
+    margin-left: 29.2%;
+}
+
+.banner-top5 {
+    float: left;
+    height: 100%;
+    width: 7%;
+    display: flex;
+    position: absolute;
+}
+
+.menu2 {
+    background: url("../image/bg8/bg8.jpg") no-repeat center center;
+    background-size: cover;
+    height: 820px;
+    width: 100%;
+}
+
+.menu2_1 {
+    padding-top: 200px;
+    margin-left: 41%
+}
+
+.menu2_2 {
+    color: #fffffb;
+    margin-left: 44.5%;
+    margin-top: -20px;
+    font-family: '微软雅黑 Light'
+}
+
+.menu2_3 {
+    color: #623AAA;
+    margin-left: 48%;
+    margin-top: 5px;
+    font-family: '微软雅黑 Light';
+    font-size: 40px;
+    padding-bottom: 20px
+}
+
+.menu2_4 {
+    background: url("../image/bg8/bg8_2.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 49%;
+    margin-top: 50px;
+    transition: 0.15s;
+}
+
+.menu2_4:hover {
+    background: url("../image/bg8/bg8_3.png") no-repeat;
+    transition: 0.15s;
+    width: 37px;
+    height: 37px;
+    margin-left: 48.8%;
+    margin-top: 49px
+}
+
+.banner2 {
+
+}
+
+.banner2 > p {
+    color: #9C9FAB;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.menu3 {
+    background: #1C202F;
+    width: 100%;
+    height: 242px;
+}
+
+.counter {
+    font-size: 55px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 38%;
+    color: #FFFFFF;
+}
+
+.menu3_2 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0.5%;
+    color: #FFFFFF
+}
+
+.menu3_3 {
+    float: top;
+    margin-left: 30%;
+    color: #9C9FAB
+}
+
+.menu3_4 {
+    float: top;
+    margin-left: 34%;
+    color: #9C9FAB
+}
+
+.menu3_5 {
+    float: top;
+    margin-left: 35%;
+    color: #9C9FAB
+}
+
+.banner3 {
+    padding-top: 31px;
+    width: 100%;
+    height: 180px;
+}
+
+.banner3-1 {
+    margin-left: 10%;
+    width: 20%;
+    height: 180px;
+    display: inline-block;
+}
+
+.banner3-2 {
+    margin-bottom: 50px;
+    margin-left: -0.3%;
+    width: 20%;
+    height: 180px;
+    display: inline-block;
+}
+
+.menu4 {
+    background: #131625;
+    width: 100%;
+    height: 949px;
+}
+
+.menu4_1 {
+    padding-top: 130px;
+    margin-left: 42%
+}
+
+.menu4_2 {
+    color: #fffffb;
+    margin-left: 44.5%;
+    margin-top: -25px;
+    font-family: '微软雅黑 Light'
+}
+
+.menu4_3 {
+    color: #623AAA;
+    margin-left: 48.5%;
+    margin-top: 5px;
+    font-family: '微软雅黑 Light';
+    font-size: 40px;
+    padding-bottom: 40px
+}
+
+.menu4_4 {
+    position: absolute;
+    color: #E0E1EB;
+    font-size: 16px;
+    padding-top: 410px;
+    font-family: 宋体;
+    display: inline-block;
+    margin-left: 6%;
+
+}
+
+.menu4_5 {
+    position: absolute;
+    color: #78797F;
+    padding-top: 430px;
+    font-size: 13px;
+    font-family: 宋体;
+    margin-left: 6%
+}
+
+.menu4_6 {
+    font-size: 50px;
+    margin-top: 390px;
+}
+
+.menu4_7 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 93%;
+    margin-bottom: 15px
+}
+
+.banner4 {
+
+}
+
+.banner4-p1 {
+    height: 380px;
+    display: inline-block;
+    float: left;
+}
+
+.banner4-p2 {
+    display: inline-block;
+    height: 560px;
+    margin-left: 1%;
+    float: left;
+    transition: 0.5s;
+}
+
+.banner4-p2:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.banner4-p3 {
+    display: inline-block;
+    height: 440px;
+    margin-left: 1%;
+    float: left;
+    transition: 0.5s;
+}
+
+.banner4-p3:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.card .cardBtm {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+}
+
+.card .cardBtm li {
+    list-style: none;
+    transform: translateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card .cardBtm1 {
+    position: absolute;
+    display: flex;
+    width: 10%;
+}
+
+.card .cardBtm1 li {
+    list-style: none;
+    display: flex;
+    transform: translateX(-50px);
+    transition: 0.8s;
+    float: left;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card:hover .cardBtm1 li {
+    transform: translateX(35px);
+    opacity: 1;
+}
+
+.card:hover .menu4_4 {
+    transition: 0.1s;
+    transform: translateX(90px);
+}
+
+.card:hover .menu4_5 {
+    transition: 0.1s;
+    color: #C1B8D2;
+    transform: translateX(90px);
+}
+
+.card:hover .cardBtm li {
+    transform: translateY(-35px);
+    opacity: 1;
+}
+
+.card {
+    position: absolute;
+    margin-left: 10.95%;
+    width: 25.3%;
+    height: 530px;
+    back-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+}
+
+.card .cardTop {
+    position: relative;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+}
+
+.card:hover .cardTop {
+    background: #623AAA;
+    opacity: 1;
+    transform: translateY(-55px);
+}
+
+.card1 .cardBtm {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+}
+
+.card1 .cardBtm li {
+    list-style: none;
+    transform: translateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card1:hover .cardBtm li {
+    transform: translateY(-35px);
+    opacity: 1;
+}
+
+.card1 .cardBtm1 li {
+    list-style: none;
+    display: flex;
+    transform: translateX(-450px);
+    transition: 0.8s;
+    float: left;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card1:hover .cardBtm1 li {
+    transform: translateX(-350px);
+    opacity: 1;
+}
+
+.card1:hover .menu4_4 {
+    transition: 0.1s;
+    transform: translateX(90px);
+}
+
+.card1:hover .menu4_5 {
+    transition: 0.1s;
+    color: #C1B8D2;
+    transform: translateX(90px);
+}
+
+.card1 {
+    position: absolute;
+    margin-left: 37.5%;
+    width: 25.3%;
+    height: 530px;
+
+    back-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+}
+
+.card1 .cardTop {
+    position: relative;
+    display: flex;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.card1:hover .cardTop {
+    background: #623AAA;
+    opacity: 1;
+    transform: translateY(-55px);
+}
+
+.card2 .cardBtm {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+}
+
+.card2 .cardBtm li {
+    list-style: none;
+    transform: translateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card2:hover .cardBtm li {
+    transform: translateY(-35px);
+    opacity: 1;
+}
+
+.card2 .cardBtm1 li {
+    list-style: none;
+    display: flex;
+    transform: translateX(-450px);
+    transition: 0.8s;
+    float: left;
+    opacity: 0;
+    color: #C1B8D2;
+}
+
+.card2:hover .cardBtm1 li {
+    transform: translateX(-350px);
+    opacity: 1;
+}
+
+.card2:hover .menu4_4 {
+    transition: 0.1s;
+    transform: translateX(90px);
+}
+
+.card2:hover .menu4_5 {
+    transition: 0.1s;
+    color: #C1B8D2;
+    transform: translateX(90px);
+}
+
+.card2 {
+    position: absolute;
+    margin-left: 64%;
+    width: 25.3%;
+    height: 530px;
+
+    back-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+}
+
+.card2 .cardTop {
+    position: relative;
+    display: flex;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.card2:hover .cardTop {
+    background: #623AAA;
+    opacity: 1;
+    transform: translateY(-55px);
+}
+
+.menu5 {
+    background: url("../image/bg10/bg10.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 420px;
+}
+
+.menu5_1 {
+    padding-top: 100px;
+    margin-left: 14%
+}
+
+.menu5_2 {
+    color: #fffffb;
+    margin-left: 14%;
+    margin-top: -25px;
+    font-family: '微软雅黑 Light'
+}
+
+.menu5_3 {
+    color: #623AAA;
+    margin-left: 14%;
+    margin-top: 5px;
+    font-family: '微软雅黑 Light';
+    font-size: 40px;
+    padding-bottom: 20px
+}
+
+.menu6 {
+    background: #131625;
+    width: 100%;
+    height: 581px;
+}
+
+.menu6_1 {
+    margin-left: 13.5%;
+    padding-top: 114px
+}
+
+.menu6_2 {
+    position: absolute;
+    width: 25.3%
+}
+
+.menu6_3 {
+    position: absolute;
+    width: 25.3%;
+    margin-left: 25%
+}
+
+.menu6_4 {
+    position: absolute;
+    width: 25.3%;
+    margin-left: 49%
+}
+
+.menu6_5 {
+    position: absolute;
+    width: 75.9%;
+    margin-top: 85px
+}
+
+.menu6_6 {
+    position: absolute;
+    margin-top: 255px;
+    width: 32.5%
+}
+
+.menu6_7 {
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-size: 14px
+}
+
+.menu6_8 {
+    border: solid 1px #4A4C57;
+    background-color: transparent;
+    color: #9C9FAB;
+    width: 85.5%;
+    height: 33px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 6px
+}
+
+.menu6_9 {
+    border: solid 1px #4A4C57;
+    background-color: transparent;
+    color: #9C9FAB;
+    width: 80%;
+    height: 33px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 6px
+}
+
+.menu6_10 {
+    border: solid 1px #4A4C57;
+    background-color: transparent;
+    color: #9C9FAB;
+    width: 80.5%;
+    height: 33px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 6px
+}
+
+.menu6_11 {
+    border: solid 1px #4A4C57;
+    background-color: transparent;
+    color: #9C9FAB;
+    width: 91.5%;
+    height: 99px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 6px;
+    resize: none;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 微软雅黑
+}
+
+.menu6_12 {
+    width: 50%;
+    height: 44px;
+    background: #8e8e8e;
+    color: #ffffff;
+    font-family: 微软雅黑
+}
+
+.menu7 {
+    background: #0F111D;
+    width: 100%;
+    height: 480px;
+}
+
+.banner7 {
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+
+.banner7-bottom {
+    float: left;
+    text-align: right;
+    width: 61%;
+    height: 70px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.banner7-bottom a {
+    color: #6C6E77;
+    text-decoration: none;
+    height: 120px;
+}
+
+.banner7-bottom a:hover {
+    text-decoration: none;
+}
+
+.banner7-a {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 48px;
+}
+
+.banner7-a_ {
+    margin-right: 5%;
+    padding-bottom: 48px;
+}
+
+.banner7-text {
+    text-align: center;
+    margin-top: 30px;
+    width: 20%;
+    display: inline-block;
+}
+
+.tt7 {
+    margin-left: 40%;
+    margin-top: 10px;
+    font-family: 新宋体;
+    font-size: 14px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tt_7 {
+    margin-left: 40%;
+    padding-top: 20px;
+    font-family: 新宋体;
+    font-size: 35px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hrb {
+    width: 100%;
+    border-bottom: none;
+    border-top: #20222D solid 1px;
+
+}
+
+.star {
+    font-family: 微软雅黑;
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    margin-left: 2%;
+    line-height: 40px;
+    height: 33px;
+    width: 8.5%;
+    display: inline-block;
+}
+
+.star_ {
+    font-family: 微软雅黑;
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    margin-left: 2.5%;
+    line-height: 105px;
+    height: 99px;
+    width: 8.5%;
+    display: inline-block;
+}
